@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delivery Jobs — Mahek Management Consultancy</title>
+  <style>
+    :root{--accent:#ff6b6b;--dark:#0f1724;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans',Arial;line-height:1.5;margin:0;color:var(--dark);background:#fafafa}
+    header{background:linear-gradient(90deg,#fff 0%,#fff 60%, rgba(255,107,107,0.06)100%);padding:22px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ffb199);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    nav a{margin-left:12px;text-decoration:none;color:var(--dark);font-weight:600}
+
+    .container{max-width:980px;margin:20px auto;padding:0 16px}
+    .hero{display:grid;grid-template-columns:1fr 340px;gap:20px;align-items:center}
+    .card{background:white;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,36,0.06);padding:18px}
+    .actions{display:flex;gap:10px;margin-top:12px}
+    .btn{padding:10px 14px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-outline{background:transparent;border:2px solid var(--accent);color:var(--accent)}
+
+    .jobs{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+    .company{display:flex;gap:12px;align-items:flex-start}
+    .company .icon{width:56px;height:56px;border-radius:10px;background:#f3f4f6;display:flex;align-items:center;justify-content:center;font-weight:800}
+    h2{margin:0;font-size:18px}
+    .muted{color:var(--muted)}
+
+    .about{display:flex;flex-direction:column;gap:10px}
+    .footer{margin:26px 0 60px;text-align:center;color:var(--muted)}
+
+    form label{display:block;font-weight:700;margin:8px 0 6px}
+    input,select,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e7eb;font-size:14px}
+
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr;}
+      .jobs{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">MM</div>
+      <div>
+        <h1>Mahek Management Consultancy</h1>
+        <p class="lead">राइडर भर्ती — पार्ट-टाइम और फुल-टाइम दोनों के लिए</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#jobs">Jobs</a>
+      <a href="#apply">Apply</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="card">
+          <h2>राइडर बनें — Swiggy, Zomato, Zepto, Rapido</h2>
+          <p class="muted">Mahek Management Consultancy के माध्यम से चुनिंदा शहरों में पार्ट-टाइम और फुल-टाइम राइडर की भर्ती। सुरक्षित प्रक्रिया, training और तेजी से payouts।</p>
+
+          <div class="jobs">
+            <div class="card">
+              <h3 style="margin-top:0">Part-Time & Full-Time Roles</h3>
+              <p class="muted">चाहे आप विद्यार्थी हों या फुल-टाइम ढूंढ रहे हों — flexible शिफ्ट और तेज़ शुरुआत।</p>
+              <ul>
+                <li>फेस्टिवल शिफ्ट: ज्यादा कमाई</li>
+                <li>राउट बेस्ड शिफ्ट</li>
+                <li>इंटरेनल ट्रेनिंग और सुरक्षा गियर</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3 style="margin-top:0">Apply Fast — WhatsApp पर सीधे संपर्क</h3>
+              <p class="muted">नीचे फॉर्म भरें या सीधे WhatsApp पर संपर्क करें। हम 24–48 घंटे में प्रतिक्रिया देने की कोशिश करते हैं।</p>
+              <div class="actions">
+                <a class="btn btn-primary" href="https://wa.me/918808140382?text=%E0%A4%B9%E0%A4%AF%2C%20mujhe%20rider%20job%20ke%20baare%20mein%20jankari%20chahiye.%20Mera%20naam%20%3A%20%5BYour%20Name%5D">WhatsApp पर Apply करें</a>
+                <a class="btn btn-outline" href="#apply">ऑनलाइन Apply</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card" id="jobs">
+          <h3 style="margin-top:0">कम्पनियों की जानकारी</h3>
+
+          <div style="margin-top:12px">
+            <div class="company">
+              <div class="icon">S</div>
+              <div>
+                <strong>Swiggy —</strong> <span class="muted">फास्ट-फूड और क्विक डिलीवरी</span>
+                <p>Swiggy में shift-based delivery होती है। peak hours पर incentives मिलते हैं। नया rider होने पर orientation और navigation support मिलता है।</p>
+              </div>
+            </div>
+
+            <div class="company">
+              <div class="icon">Z</div>
+              <div>
+                <strong>Zomato —</strong> <span class="muted">रेस्टोरेंट delivery का बड़ा प्लेटफार्म</span>
+                <p>Zomato में customer-service पर emphasis होता है; earnings के साथ-rated customer incentives और पार्टनर rewards होते हैं। नए राइडर को performance-based bonuses मिल सकते हैं।</p>
+              </div>
+            </div>
+
+            <div class="company">
+              <div class="icon">Ze</div>
+              <div>
+                <strong>Zepto —</strong> <span class="muted">grocery instant delivery</span>
+                <p>Zepto तेज़ grocery delivery के लिए जाना जाता है। छोटे delivery radius और frequent orders के कारण जल्दी कमाई होती है। छोटे शहरों में भी demand बढ़ रही है।</p>
+              </div>
+            </div>
+
+            <div class="company">
+              <div class="icon">R</div>
+              <div>
+                <strong>Rapido —</strong> <span class="muted">two-wheeler rides & parcel</span>
+                <p>Rapido में दोपहिया rides और small parcel delivery दोनों होते हैं। city-wise demand पर निर्भर कर के earnings बदलते हैं — flexibility high है।</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card about">
+          <h2>Mahek Management Consultancy</h2>
+          <p class="muted">Mahek Management Consultancy एक जानी-मानी consultancy firm है जो राइडर recruitment और logistic partners के लिए hiring services provide करती है। हमारा मकसद है आसान प्रक्रिया, भरोसेमंद training और तेज़ onboarding।</p>
+
+          <div>
+            <strong>Contact</strong>
+            <p class="muted">WhatsApp: <a href="https://wa.me/918808140382">+91 88081 40382</a><br>Phone: <a href="tel:8808140382">88081 40382</a></p>
+          </div>
+
+          <div>
+            <strong>Quick Links</strong>
+            <p><a href="#apply">ऑनलाइन Apply करें</a> • <a href="https://wa.me/918808140382?text=Main%20rider%20job%20ke%20liye%20apply%20karna%20chahta%20/%20chahti%20hoon">Direct WhatsApp</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">रोजगार के फायदे</h3>
+          <ul class="muted">
+            <li>तेज़ पेमेन्ट प्रोसेस</li>
+            <li>फ्लेक्सिबल शिफ्ट</li>
+            <li>training और safety guidance</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section class="card" id="apply" style="margin-top:18px">
+      <h2 style="margin-top:0">Apply — आवेदन फॉर्म</h2>
+      <p class="muted">नीचे फॉर्म भरें — हम WhatsApp पर आपके साथ contact करेंगे।</p>
+      <form id="applyForm">
+        <label for="name">पूरा नाम</label>
+        <input id="name" name="name" required placeholder="आपका नाम">
+
+        <label for="phone">मोबाइल नंबर</label>
+        <input id="phone" name="phone" required placeholder="10-digit नंबर">
+
+        <label for="type">जॉब टाइप</label>
+        <select id="type" name="type">
+          <option>Part-Time</option>
+          <option>Full-Time</option>
+        </select>
+
+        <label for="city">शहर</label>
+        <input id="city" name="city" placeholder="Your city">
+
+        <label for="msg">किस चीज़ में रूचि है? (optional)</label>
+        <textarea id="msg" rows="3" placeholder="थोड़ी जानकारी दे दें"></textarea>
+
+        <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+          <button type="submit" class="btn btn-primary">Submit & WhatsApp</button>
+          <a class="btn btn-outline" href="https://wa.me/918808140382">सीधे WhatsApp खोलें</a>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>© Mahek Management Consultancy • Rider Hiring • Designed in Hindi</p>
+    </footer>
+  </main>
+
+  <script>
+    const form = document.getElementById('applyForm');
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('name').value || 'NA');
+      const phone = encodeURIComponent(document.getElementById('phone').value || 'NA');
+      const type = encodeURIComponent(document.getElementById('type').value);
+      const city = encodeURIComponent(document.getElementById('city').value || 'NA');
+      const msg = encodeURIComponent(document.getElementById('msg').value || '');
+
+      const waNumber = '918808140382';
+      const text = `नमस्ते Mahek Management Consultancy,%0Aमैं%20${name}%20(फोन:%20${phone})%20${type}%20के%20लिए%20apply%20कर%20रहा/रही%20हूँ.%20शहर:%20${city}.%0A${msg}`;
+      const url = `https://wa.me/${waNumber}?text=${text}`;
+      window.open(url, '_blank');
+    });
+  </script>
+</body>
+</html>
